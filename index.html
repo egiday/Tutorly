@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+    <div class="chat-container">
+        <!-- Header -->
+        <header class="chat-header">
+            <h1>AI Study Helper</h1>
+            <button id="theme-toggle" class="theme-toggle">Dark Mode</button>
+        </header>
+
+        <!-- Chat History -->
+        <div id="chat-history" class="chat-history"></div>
+
+        <!-- Typing Indicator -->
+        <div id="typing-indicator" class="typing-indicator">AI is typing...</div>
+
+        <!-- Contextual Suggestions -->
+        <div id="suggestions" class="suggestions-container"></div>
+
+        <!-- Study Tools -->
+        <div id="study-tools" class="study-tools">
+            <h2>Study Tools</h2>
+            <button id="flashcards-btn">Flashcards</button>
+            <button id="calculator-btn">Calculator</button>
+            <button id="notes-btn">Notes</button>
+        </div>
+
+        <!-- Progress Tracker -->
+        <div id="progress-tracker" class="progress-tracker">Interactions: 0 | Topics Covered: None</div>
+
+        <!-- Chat Input -->
+        <div class="chat-input-container">
+            <textarea id="query" class="chat-input" placeholder="Type your message here..."></textarea>
+            <button id="submit-btn" class="send-button">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
