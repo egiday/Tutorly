@@ -1,4 +1,4 @@
-const apiKey = "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"; // Replace with your OpenAI API key
+const apiKey = "OPEN-AI-KEY"; // Replace with your OpenAI API key
 
 let chatHistory = [
     {
